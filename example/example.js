@@ -8,8 +8,8 @@ game.log("Hello World!");
 
 game.read(function (input) {
     if (input === "Hello World!") {
-        game.log("Hello to you too!");
+        game.log("Hello! Happy to see you.");
     } else {
-        game.log("You said \"" + input + "\".");
+        game.log("\"" + input + "\" to you too!");
     }
 });
