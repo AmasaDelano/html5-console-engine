@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.console-output,
+.console-input {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #00FF00;
+}
+
+.console-output {
+    background-color: #000;
+    margin: 0;
+    padding: 20px;
+    height: calc(100% - 60px - 1.1em);
+    max-height: calc(100% - 60px - 1.1em);
+    line-height: 1.4em;
+    overflow-y: auto;
+}
+
+.console-output p {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: 1.2em;
+    text-indent: -1.2em;
+    padding: 0;
+    white-space: pre-wrap;
+}
+
+.console-input {
+    background-color: #333;
+    display: block;
+    border: 0;
+    width: calc(100% - 40px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.console-input:focus {
+    outline: none;
+}
